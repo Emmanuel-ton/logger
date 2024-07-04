@@ -12,7 +12,7 @@ const LogSection = () => {
         <ul className='flex flex-col gap-3'>
             {
                 fakeLogs.map((it,index) => (
-                    <LogCard key={index} logDate={it.logDate} logText={it.logText} />
+                    <LogCard key={index} logDate={it.logDate} logText={it.logText} id={it.id} />
                 ))
             }
         </ul>
